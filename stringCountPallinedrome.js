@@ -4,7 +4,7 @@ function StringCountPallindrome(str) {
   const upperCaseStr = str.toUpperCase();
   sum = 0;
   const n = upperCaseStr.length;
-  for (let index = 0; index <= n / 2; index++) {
+  for (let index = 0; index < n / 2; index++) {
     let firstElement = upperCaseStr[index].charCodeAt(0);
     let lastElement = upperCaseStr[
       upperCaseStr.length - (index + 1)
